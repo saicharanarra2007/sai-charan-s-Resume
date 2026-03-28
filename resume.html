@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sai charan | Resume</title>
+    <style>
+        
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #eef2f3;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .resume {
+            max-width: 900px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        /* Header & Photo Section */
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .photo img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Makes photo circular */
+            object-fit: cover;
+            border: 5px solid #2c3e50;
+            display: block;
+            margin: 0 auto 15px;
+        }
+
+        h1 { color: #2c3e50; margin: 0; text-transform: uppercase; letter-spacing: 2px; }
+        h2 { color: #34495e; margin: 10px 0 5px; }
+        .subtitle { font-style: italic; color: #7f8c8d; }
+
+        /* Navigation Bar */
+        .navbar {
+            position: sticky;
+            top: 0;
+            background: #2c3e50;
+            padding: 10px 0;
+            text-align: center;
+            border-radius: 5px;
+            margin: 20px 0;
+            z-index: 100;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            background: #3498db;
+            border-radius: 4px;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 20px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        h3 {
+            color: #2980b9;
+            border-left: 5px solid #2980b9;
+            padding-left: 10px;
+            text-transform: uppercase;
+            font-size: 18px;
+        }
+
+        .edu-item, .project-item {
+            margin-bottom: 15px;
+        }
+
+        b { color: #2c3e50; }
+
+        /* Footer/Address */
+        address {
+            font-style: normal;
+            line-height: 1.6;
+        }
+
+        .signature {
+            margin-top: 30px;
+            font-weight: bold;
+        }
+
+        @media print {
+            .navbar { display: none; }
+            body { background: white; }
+            .resume { box-shadow: none; margin: 0; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="resume">
+    <header>
+        
+        <div class="photo">
+            
+            <img src="res.jpeg" alt="sai charan">
+        </div>
+        <h2>sai charan reddy</h2>
+        
+    </header>
+
+    <div class="navbar">
+        <a href="#personal">Personal</a>
+        <a href="#career">Objective</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#project">Project</a>
+        <a href="#address">Contact</a>
+    </div>
+
+    
+
+    <section id="career">
+        <h3>Career Objective</h3>
+        <p>To obtain a challenging position where I can use my skills and grow professionally in the field of Computer Science and Engineering.</p>
+    </section>
+
+    <section id="education">
+        <h3>Educational Qualification</h3>
+        <div class="edu-item">
+            <b>B.Tech (CSE)</b> | KLH University<br>
+            Year: 2029 | Percentage: 85%
+        </div>
+        <div class="edu-item">
+            <b>Intermediate</b> | narayana junior college<br>
+            Year: 2025 | Percentage: 97%
+        </div>
+        <div class="edu-item">
+            <b>SSC</b> | fortune butterfly school<br>
+            Year: 2023 | Percentage: 91%
+        </div>
+    </section>
+
+    <section id="skills">
+        <h3>Technical Skills</h3>
+        <p><b>Languages:</b> C, Java, Python</p>
+        <p><b>Web:</b> HTML5, CSS3, JavaScript</p>
+        <p><b>Database:</b> MySQL</p>
+    </section>
+
+    <section id="project">
+        <h3>Project</h3>
+        <div class="project-item">
+            <b>Title: innovation project</b><br>
+            <p>devloped  natural and sustainable products </p>
+            
+        </div>
+    </section>
+    <section id="personal">
+        <h3>Personal Details</h3>
+        <p><b>Name:</b> sai charan reddy A </p>
+        <p><b>Date of Birth:</b> 28-10-2007</p>
+        <p><b>Gender:</b> Male</p>
+        <p><b>Nationality:</b> Indian</p>
+    </section>
+
+    <section id="declaration">
+        <h3>Declaration</h3>
+        <p>I hereby declare that the above information is true to the best of my knowledge.</p>
+        <p><b>Place:</b> Hyderabad | <b>Date:</b>20 febrauary 2026</p>
+        <p class="signature">charan A</p>
+    </section>
+
+    <section id="address">
+        <h3>Address & Contact</h3>
+        <address>
+            2-34,shadnagar,<br>
+            rangareddy,telangana, India<br>
+            <strong>Email:</strong>saicharanarra2007@gmail.com<br>
+            <strong>Phone:</strong> +91 7780308606
+        </address>
+    </section>
+</div>
+
+</body>
+</html>
+
+
